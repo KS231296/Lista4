@@ -31,7 +31,8 @@ public class BasePlusCommisionEmployee extends CommisionEmployee {
         }
     }
 
-    public double zarobek() {
+
+    public double zarobekTygodniowy() {
         return baseWeekly + this.provision();
     }
 

@@ -59,11 +59,9 @@ public class Employee {
         return "ID: " + id + ", name: " + name + ", surname: " + surname + ", date of employment: " + dateOfEmployment;
     }
 
-    public long daysOfWork(){
+    public long daysOfWork() {
         return DAYS.between(dateOfEmployment, LocalDate.now());
     }
-
-
 
 
 

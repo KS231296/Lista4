@@ -31,16 +31,16 @@ public class SalariedEmployee extends Employee {
     }
 
 
-    public double zarobekTygodniowy(){
-        return baseMonthly/4;
+
+    public double zarobekTygodniowy() {
+        return baseMonthly / 4;
     }
 
 
     @Override
-    public String toString(){
+    public String toString() {
         return "ID: " + getId() + ", name: " + getName() + ", surname: " + getSurname() + ", date of employment: " + getDateOfEmployment() + ", base monthly: " + getBaseMonthly();
     }
-
 
 
 }
